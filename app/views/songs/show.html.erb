@@ -1,2 +1,2 @@
 <h1><%= @song.name %></h1>
-<p>Find me in app/views/songs/show.html.erb</p>
+<p><%= link_to @song.genre.name, genre_path(@song.genre) %></p>
