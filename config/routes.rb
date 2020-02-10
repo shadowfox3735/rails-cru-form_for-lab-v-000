@@ -8,6 +8,8 @@ Rails.application.routes.draw do
   get 'songs/update'
 
   get 'songs/show'
+  
+  get 'songs/index'
 
   get 'genres/new'
 
