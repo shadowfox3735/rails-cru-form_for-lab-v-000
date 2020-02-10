@@ -8,7 +8,7 @@ class SongsController < ApplicationController
   end
 
   def create
-    @song.new(song_params(:name, :artist, :genre))
+    @song.new(song_params(:name))
   end
 
   def edit
