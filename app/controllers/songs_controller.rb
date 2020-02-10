@@ -18,5 +18,12 @@ class SongsController < ApplicationController
   end
 
   def show
+    @song = Song.find(params[:id])
+  end
+  
+  private
+  
+  def song_params(*args)
+    
   end
 end
